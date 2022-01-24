@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image:url(java.jpg) ;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    object-fit: cover;
+   
+}
+.text-center{
+    
+    color: rgb(11, 103, 131);
+    letter-spacing: 4px;
+    font: bold;
+    padding: 10px;
+}
+strong{
+    color: black;
+    font-size: 40px;
+}
+#gigabytes_input{
+    font-size: 20px;
+}
+#bytes_output{
+    background-color: black;
+    width: 35%;
+    font-size: 22px;
+    margin: auto;
+    border: solid white 2px;
+    border-radius: 8px;
+}
+.B{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: transform 1.5s;
+}
+.B:hover{
+    opacity:1.0;
+    transform: scale(1.1);
+}
+.gbit{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: transform 1.5s;
+}
+.gbit:hover{
+    opacity:1.0;
+    transform: scale(1.1);
+}
+.kB{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: transform 1.5s;
+}
+.kB:hover{
+    opacity: 1.0;
+    transform: scale(1.1);
+}
+.MB{
+    cursor: pointer;
+    opacity:0.7;
+    transition: transform 1.5s;
+}
+.MB:hover{
+    opacity: 1.0;
+    transform: scale(1.1);
+}
+.TB{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: transform 1.5s;
+}
+.TB:hover{
+    opacity: 1.0;
+    transform: scale(1.1);
+}
+#gigabits_output{
+   
+    background-color: black;
+    width: 35%;
+    font-size: 22px;
+    margin: auto;
+    border: solid white 2px;
+    border-radius: 8px;
+}
+#kilobytes_output{
+    background-color: black;
+    width: 35%;
+    font-size: 22px;
+    margin: auto;
+    border: solid white 2px;
+    border-radius: 8px;
+}
+#megabytes_output{
+    background-color: black;
+    width: 35%;
+    font-size: 22px;
+    margin: auto;
+    border: solid white 2px;
+    border-radius: 8px;
+}
+
+#terabytes_output{
+    background-color: black;
+    width: 35%;
+    font-size: 22px;
+    margin: auto;
+    border: solid white 2px;
+    border-radius: 8px;
+}
